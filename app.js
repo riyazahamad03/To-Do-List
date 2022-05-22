@@ -2,6 +2,7 @@
 
 const express = require("express");
 const bodyParser = require("body-parser");
+const serveStatic = require('serve-static')
 const mongoose =require("mongoose");
 const _ = require("lodash");
 const app = express();
